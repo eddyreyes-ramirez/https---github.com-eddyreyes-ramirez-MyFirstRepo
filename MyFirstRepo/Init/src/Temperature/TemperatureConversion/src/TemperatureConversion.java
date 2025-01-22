@@ -23,7 +23,7 @@ public class TemperatureConversion {
          
          
          System.out.print(celsiusInput + " degrees celsius is " + (String.format("%.2f",TempInFahrenheit)) + " degrees fahrenheit.\n" +
-         "Do you want to play again? Press (Y)es pr (N)o to exit\n");
+         "\nDo you want to play again? Press (Y)es or (N)o to exit\n");
          input.nextLine();
          optionToContinue = input.nextLine();
         }
