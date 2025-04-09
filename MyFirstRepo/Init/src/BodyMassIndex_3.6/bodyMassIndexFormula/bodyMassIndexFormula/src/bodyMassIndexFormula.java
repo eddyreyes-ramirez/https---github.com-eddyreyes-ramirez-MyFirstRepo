@@ -38,6 +38,7 @@ public class bodyMassIndexFormula {
         System.out.println("Overweight");
         // decision else when all conditions before are false; then add obese to print statement
         else 
-        System.out.println("Obese");        
+        System.out.println("Obese"); 
+               
     }
 }
