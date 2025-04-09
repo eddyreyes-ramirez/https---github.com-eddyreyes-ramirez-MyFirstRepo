@@ -1,4 +1,4 @@
-import jav.util.*;
+import java.util.*;
 public class daysInMonth {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner (System.in);
@@ -18,6 +18,7 @@ public class daysInMonth {
         //ask user to input month
         System.out.println("Enter month.");
         //next user input will be assigned to variable month
+        int month = input.nextInt();
         //initializing variable days, assigning variable zero
         int days = 0;
         //switch statement
@@ -53,6 +54,8 @@ public class daysInMonth {
         // print the number of days in the month, in the year based on user input.
         // call array monthsOfYear to get name of month selected, subtract 1 from array becuase array starts at 0,
         // call number of days from switch statement 
-        System.out.println(monthsOfYear[month-1] + " had " + days + " days in " + year ".");
+
+        System.out.println(monthsOfYear[month-1] + " had " + days + " days in " + year + ".");
+        
     }
 }
