@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 import jav.util.*;
 public class daysInMonth {
     public static void main(String[] args) throws Exception {
@@ -23,7 +21,7 @@ public class daysInMonth {
         //initializing variable days, assigning variable zero
         int days = 0;
         //switch statement
-        switch (month)) {
+        switch (month) {
             // grouping months that have the same days
             // months 1,3,5,7,8,10,12 all have 31 days, variable assigned to days will be the same
             case 1:
@@ -55,6 +53,6 @@ public class daysInMonth {
         // print the number of days in the month, in the year based on user input.
         // call array monthsOfYear to get name of month selected, subtract 1 from array becuase array starts at 0,
         // call number of days from switch statement 
-        System.out.println(monthsOfYear[month-1] + " had " + days + " days in " + year " .");
+        System.out.println(monthsOfYear[month-1] + " had " + days + " days in " + year ".");
     }
 }
