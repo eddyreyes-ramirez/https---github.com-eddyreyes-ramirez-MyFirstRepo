@@ -1,10 +1,10 @@
 import java.util.*;
 public class daysInMonth {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args)  {
         Scanner input = new Scanner (System.in);
         //declaring array and array variable of type string
         // list of months
-        String[] monthsOfYear = {"January, February, March, April, May, June, July, August, September, October, November, December"};
+        String[] monthsOfYear = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
         //ask user to input year
         System.out.println("Enter a year.");
         // next user input will be assigned variable year
