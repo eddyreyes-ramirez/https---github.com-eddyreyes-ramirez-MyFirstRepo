@@ -24,7 +24,7 @@ public class findingArrayAverage {
         int sum= 0;
         for (int value : array)
         //for each value inside array, add to variable sum, 
-        //continues loop until finshed      
+        //continues loop until finished      
         sum += value;
         //when method average is called
         // returns the sum of all numbers % the length of the array, which is 10.
@@ -35,7 +35,7 @@ public class findingArrayAverage {
     public static double average(double [] array){
     double sum = 0.0;
     //for each value inside array, add to variable sum, 
-    //continues loop until finshed 
+    //continues loop until finished 
     for(double value : array)
     sum += value;
     // returns the average - the sum of all numbers % the length of the array, which is 10.
